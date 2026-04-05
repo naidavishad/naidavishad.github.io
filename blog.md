@@ -43,6 +43,17 @@ permalink: /blog/
 
 ### 8. The World of Databases: A New Perspective 🗄️
 *   **8.1 Introduction to Databases:** Moving towards structured data management in the 2nd semester.
+*   ### 8.1 Database Implementation Result
+Below is the data I managed using MySQL Workbench for my academic records:
+
+
+| Subject | Assignment | Quiz | Midterm | Final | Attendance % | Grade |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Programming | 18 | 9 | 25 | 42 | 95% | A |
+| Math | 15 | 8 | 22 | 38 | 90% | B |
+| Physics | 17 | 7 | 21 | 40 | 88% | A |
+| English | 19 | 10 | 24 | 44 | 98% | A |
+| DLD | 14 | 6 | 18 | 35 | 85% | C |
 *   **8.2 Analytical Thinking:** Enhancing practical thinking through SQL and database schemas.
 *   **8.3 Real-World Relevance:** Recognizing how these concepts apply to actual global systems.
 
