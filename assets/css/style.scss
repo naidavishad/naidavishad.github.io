@@ -1,0 +1,40 @@
+---
+---
+@import "minima";
+
+body {
+  /* Navy Blue to Deep Purple Gradient Background */
+  background: linear-gradient(135deg, #001f3f 0%, #2e004d 100%);
+  background-attachment: fixed;
+  color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  /* White Content Card for Professional Look */
+  background-color: rgba(255, 255, 255, 0.98);
+  color: #212529;
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+  margin-top: 60px;
+}
+
+.site-header { 
+  background-color: #001329; 
+  border-bottom: 4px solid #4b0082; 
+}
+
+.site-title, .site-nav a { 
+  color: #ffffff !important; 
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3 { 
+  color: #001f3f; 
+  border-bottom: 2px solid #4b0082; 
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
