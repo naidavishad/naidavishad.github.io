@@ -4,19 +4,20 @@ title: Home
 permalink: /
 ---
 
-<div style="background-color: #001f3f; color: white; padding: 35px; text-align: center; border-radius: 15px; margin-bottom: 25px; border: 2px solid #004080;">
-  <h1 style="color: white; margin: 0;">NAHIDA WISHAD ALI KHAN</h1>
-  <p style="font-size: 1.2em; margin: 10px 0;">Registration No: 2025-BSCPE-140</p>
-  <p style="font-size: 1.1em; opacity: 0.9;">BS Computer Engineering | Semester 2</p>
+<div style="background: linear-gradient(135deg, #001f3f 0%, #4b0082 100%); color: white; padding: 45px; text-align: center; border-radius: 20px; margin-bottom: 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+  <h1 style="color: white; border: none; margin-bottom: 5px;">🌟 NAHIDA WISHAD ALI KHAN 🌟</h1>
+  <p style="font-size: 1.2em; margin-bottom: 5px;">🆔 Registration No: 2025-BSCPE-140</p>
+  <p style="font-size: 1.1em; opacity: 0.9;">🎓 BS Computer Engineering | Semester 2</p>
 </div>
 
-## Professional Portfolio & Academic Journey
-Welcome! I am documenting my 8-semester engineering journey. This site is a central hub for my technical projects, lab assignments, and academic milestones.
+### 👋 Welcome to my Digital Portfolio
+I am documenting my professional **8-Semester Engineering Journey**. This portal serves as a central repository for all my technical growth, coding projects, and academic milestones. 📚💻
 
-### Current Status: Semester 2
-Currently, I am focusing on **Programming Fundamentals** and **Open Source Documentation**. This blog is built using GitHub Pages and Jekyll to maintain a professional digital presence.
+*   **📍 Current Milestone:** Semester 2 (Programming & Databases)
+*   **📂 Focus:** Open Source Contribution and Technical Documentation
+*   **🛠 Tools:** GitHub, Jekyll, MySQL, C++
 
-> "Engineering is about turning ideas into reality through code and logic."
+> "The best way to predict the future is to create it." — Engineering mindset ⚙️
 
 ---
-*Please use the menu above to navigate to my **About** page or read my **Blog** posts.*
+*Click on the **Blog** section in the menu to read my full semester story! 📖*
