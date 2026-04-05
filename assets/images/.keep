@@ -1,0 +1,31 @@
+---
+layout: page
+title: My Gallery
+permalink: /gallery/
+---
+
+<div style="background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%); color: #D4AF37; padding: 20px; border-radius: 10px; margin-bottom: 25px; text-align: center; border: 1px solid #D4AF37;">
+  <h2 style="color: #D4AF37; border: none; margin: 0;">📸 CAMPUS LIFE & PROJECT GALLERY</h2>
+</div>
+
+### Engineering Memories
+Welcome to my visual journey at UET Lahore. Here, I document key moments from labs, exhibitions, and campus life.
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+  
+  <!-- Image 1 -->
+  <div style="border: 2px solid #D4AF37; border-radius: 10px; overflow: hidden; width: 250px;">
+    <img src="/assets/images/photo1.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="padding: 10px; text-align: center; font-size: 0.9em; background: #f9f9f9;">My First Lab Project 🛠️</p>
+  </div>
+
+  <!-- Image 2 -->
+  <div style="border: 2px solid #D4AF37; border-radius: 10px; overflow: hidden; width: 250px;">
+    <img src="/assets/images/photo2.jpg" style="width: 100%; height: 200px; object-fit: cover;">
+    <p style="padding: 10px; text-align: center; font-size: 0.9em; background: #f9f9f9;">UET Lahore Campus View 🏛️</p>
+  </div>
+
+</div>
+
+---
+*Note: Make sure to upload images in the `assets/images/` folder with names like photo1.jpg, photo2.jpg etc.*
