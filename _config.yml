@@ -1,13 +1,17 @@
-title: Nahida Wishad Ali Khan
+title: "Nahida Wishad Ali Khan"
 email: naidavishad81@gmail.com
-description: Registration No 2025-BSCPE-140. My 8-Semester Journey.
+description: "Registration No: 2025-BSCPE-140 | Semester 2 Journey"
 
-# Navigation Menu (Order wise)
+# Theme settings
+theme: minima
+remote_theme: jekyll/minima
+
+# Navigation
 header_pages:
   - index.md
-  - about.md
-  - contact.md
   - blog.md
+  - about.md
 
-theme: minima
-remote_theme:jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
