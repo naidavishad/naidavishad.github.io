@@ -1,12 +1,10 @@
 title: "Nahida Wishad Ali Khan"
 email: naidavishad81@gmail.com
-description: "Registration No: 2025-BSCPE-140 | Semester 2 Journey"
-
-# Theme settings (Sirf ye 2 lines rakhen)
+description: "UET Lahore | 2025-BSCPE-140 | Engineering Portfolio"
 theme: minima
 remote_theme: jekyll/minima
 
-# Navigation (Sirf ye 2 pages rakhen jo humne banaye hain)
 header_pages:
   - index.md
   - blog.md
+  - about.md
