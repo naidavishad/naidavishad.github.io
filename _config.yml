@@ -2,16 +2,11 @@ title: "Nahida Wishad Ali Khan"
 email: naidavishad81@gmail.com
 description: "Registration No: 2025-BSCPE-140 | Semester 2 Journey"
 
-# Theme settings
+# Theme settings (Sirf ye 2 lines rakhen)
 theme: minima
 remote_theme: jekyll/minima
 
-# Navigation
+# Navigation (Sirf ye 2 pages rakhen jo humne banaye hain)
 header_pages:
   - index.md
   - blog.md
-  - about.md
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
