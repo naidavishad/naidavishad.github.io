@@ -1,20 +1,27 @@
-# 💻 My Journey in Computer Engineering | A Reflective Portfolio
+---
+layout: home
+title: Portfolio | Computer Engineering
+---
 
-### 🚀 From Academic Pressure to Technical Purpose
-My journey began at **UET Lahore**, where I quickly learned that securing admission was only the starting line. Transitioning from a non-technical background into **Computer Engineering** was a defining challenge that reshaped my mindset. What started as "admission pressure" evolved into a passionate pursuit of self-driven growth and technical excellence.
+# 💻 Engineering Growth: A Journey of Resilience & Technical Purpose
 
-### 🛠 Technical Evolution & Adaptability
-*   **The Learning Curve:** Starting with **Programming Fundamentals (PF)** without prior coding knowledge was a hurdle I turned into a motivation. I bridged the gap between understanding logic in the lab and expressing it effectively in complex environments.
-*   **Database Systems & Analytics:** Moving into the second semester, I developed a strong interest in **Database Systems**, finding a natural affinity for structured, analytical thinking and real-world data applications.
-*   **Project Resilience:** Through project exhibitions and presentations, I transformed my communication weaknesses into strengths, learning that **collaboration and clarity** are as vital as the code itself.
+Welcome to my digital space. I am a **Computer Engineering student at UET Lahore**, dedicated to bridging the gap between complex logic and impactful real-world solutions.
+
+---
+
+### 🚀 From Academic Pressure to Technical Passion
+The journey began with the intense transition from FSC to **UET Lahore**. While getting into a top-tier institution was a moment of pride, I soon realized that admission was merely the starting line. The real challenge was shifting from a non-technical background into the fast-paced world of engineering—a transition that reshaped my entire mindset.
+
+### 🛠 Technical Evolution & The Learning Curve
+*   **Programming Fundamentals (PF):** This was my "Aha!" moment. Starting with zero coding knowledge, I transformed confusion into a source of motivation. I focused on closing the gap between understanding logic in the lab and expressing it effectively in exams.
+*   **Database Systems:** In my second semester, I discovered a natural affinity for **Databases**. The structured, analytical thinking required for SQL and data management felt like a perfect fit for my problem-solving style.
+*   **Project Resilience:** Through university exhibitions, I turned communication hurdles into strengths. Presenting my work taught me that **clarity and collaboration** are as essential as the code itself.
 
 ### 🧩 Resilience & Professional Mindset
-I am often recognized for my **ever-present smile and positive energy**. In a high-pressure engineering environment—balancing assignments, quizzes, and deadlines—I believe that maintaining a cheerful demeanor is a sign of **emotional intelligence and resilience**. 
-
-Behind this optimism is a disciplined individual who has mastered:
-- **Time Management:** Navigating the heavy workload of a top-tier engineering university.
-- **Independence:** Gaining self-reliance and maturity through the challenges of hostel life.
-- **Consistency:** Learning that steady effort outperforms temporary intensity every time.
+I believe a positive attitude is a sign of high emotional intelligence. Navigating the heavy workload of a top engineering university while maintaining a smile is my way of staying disciplined.
+- **Independence:** Living in a **hostel** taught me self-reliance, patience, and how to manage life away from my comfort zone.
+- **Adaptability:** Transitioning between physical and online learning modes proved that I can remain productive regardless of the environment.
+- **Consistency:** I’ve learned that steady, daily effort always outperforms temporary bursts of intensity.
 
 ---
 
@@ -24,10 +31,22 @@ Behind this optimism is a disciplined individual who has mastered:
 ---
 
 ### 🛠 Tech Stack & Skills
-- **Core:** C++, Python, Database Management (SQL)
-- **Soft Skills:** Pressure Handling, Technical Presentation, Team Collaboration
-- **Status:** Currently soaring as a 'Shaheen' in the world of technology.
+- **Languages:** C++, Python, SQL
+- **Specialties:** Database Management, Analytical Problem Solving
+- **Soft Skills:** Time Management, Technical Presentation, Team Leadership
+- **Current Goal:** Mastering the intersection of Hardware and Software.
 
 ---
+
 ### 📫 Let's Connect
-[LinkedIn](Your-Link-Here) | [Email](Your-Email-Here) | [Portfolio Website](Your-Link-Here)
+I am always open to discussing technology, collaborative projects, or engineering insights.
+
+*   **LinkedIn:** [://linkedin.com](https://://linkedin.com)
+*   **GitHub:** [://github.com](https://://github.com)
+*   **Email:** [YourEmail@example.com](mailto:YourEmail@example.com)
+
+---
+<p align="center">
+  <i>"Simplicity is the ultimate sophistication." — Leonardo da Vinci</i>
+</p>
+
