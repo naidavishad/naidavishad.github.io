@@ -39,7 +39,6 @@ I am a **Computer Engineering Student** at **UET Lahore**, building a bridge bet
 ### 📂 Explore My Work
 *   **[📝 Read My Full Journey](blog.md)** – *From admission pressure to a reflective engineering mindset.*
 *   **[💻 View My Projects](https://github.com)** – *Explore my code and technical implementations.*
-*   **[🤝 Let's Connect on LinkedIn](Your-LinkedIn-Link-Here)** – *Let's build something impactful together.*
 
 ---
 
