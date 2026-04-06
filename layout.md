@@ -5,17 +5,6 @@ title: Home | Computer Engineering Portfolio
 
 # 👋 Welcome to My Engineering Portfolio
 
-<br>
-
-<div align="center">
-  <!-- Professional Badge Header -->
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-</div>
-
-<br>
-
 ---
 
 ### 🚀 About My Journey
