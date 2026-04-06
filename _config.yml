@@ -1,23 +1,43 @@
----
-layout: page
-title: Home
-permalink: /
----
+# --- Site Settings ---
+title: Naida Vishad
+tagline: Computer Engineering Student | UET Lahore
+email: your-email@example.com
+description: >- # This is for SEO/Google search results
+  A professional reflective portfolio documenting my journey in 
+  Computer Engineering, Database Systems, and technical resilience.
 
-<div style="background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%); color: #D4AF37; padding: 60px; text-align: center; border-radius: 15px; margin-bottom: 35px; border: 2px solid #D4AF37; box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);">
-  <h1 style="color: #D4AF37; border: none; margin: 0; font-size: 2.5em; letter-spacing: 3px; text-transform: uppercase;">NAHIDA WISHAD ALI KHAN</h1>
-  <p style="font-size: 1.3em; margin-top: 15px; color: #f1f1f1;">UET LAHORE | REG NO: 2025-BSCPE-140</p>
-  <p style="font-size: 1.1em; font-weight: 300; font-style: italic; color: #D4AF37;">Future Computer Engineer | 8-Semester Journey</p>
-</div>
+# --- URL Settings ---
+# Leave baseurl empty ("") if your repo is naidavishad07.github.io
+baseurl: "" 
+url: "https://github.io"
 
-### 🌟 Professional Introduction
-Welcome to my official digital portfolio. Getting admission into **UET Lahore** was my first milestone, and now I am documenting my growth from a confused beginner to a confident engineer. 🚀
+# --- Author/Social Links ---
+author:
+  name: Naida Vishad
+  twitter: naidavishad07
+  github:  naidavishad07
+  linkedin: naidavishad07
 
-*   **Current Milestone:** Semester 2 (Mastering Programming & Databases)
-*   **Academic Focus:** Solving real-world problems through logic and hardware.
-*   **Technical Tools:** C++, MySQL, GitHub, Jekyll.
+# --- Build Settings ---
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-> "Engineering is about turning pressure into progress." ⚙️
+# --- Minima Theme Configuration ---
+minima:
+  skin: classic # Options: classic, dark, solarized
+  social_links:
+    - { platform: github, user_url: "https://github.com" }
+    - { platform: linkedin, user_url: "https://linkedin.com" }
+    # - { platform: twitter, user_url: "https://twitter.com" }
 
----
-*Navigate to the **Blog** section to read my 10-chapter life story at UET.*
+# --- Exclusions ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
