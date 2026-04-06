@@ -41,9 +41,7 @@ I believe a positive attitude is a sign of high emotional intelligence. Navigati
 ### 📫 Let's Connect
 I am always open to discussing technology, collaborative projects, or engineering insights.
 
-*   **LinkedIn:** [://linkedin.com](https://://linkedin.com)
-*   **GitHub:** [://github.com](https://://github.com)
-*   **Email:** [YourEmail@example.com](mailto:YourEmail@example.com)
+*   **Email:** naidavishad81@gmail.com
 
 ---
 <p align="center">
