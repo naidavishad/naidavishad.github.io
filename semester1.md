@@ -27,16 +27,91 @@ permalink: /semester1/
   border-bottom: 2px solid #f4f6f9; padding-bottom: 10px;
 }
 .subjects-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
 }
 .subject-card {
-  background: #f9f9f9; border-radius: 10px; padding: 18px 12px;
-  text-align: center; border-left: 4px solid #e94560;
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
-.subject-card .icon { font-size: 28px; margin-bottom: 8px; }
-.subject-card .name { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
-.subject-card .teacher { font-size: 12px; color: #e94560; margin-bottom: 2px; }
-.subject-card .type { font-size: 11px; color: #888; }
+.subject-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #e94560;
+  transition: width 0.2s ease;
+}
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(233, 69, 96, 0.1);
+  border-color: rgba(233, 69, 96, 0.2);
+}
+.subject-card:hover::before {
+  width: 6px;
+}
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.subject-card .icon {
+  font-size: 32px;
+  background: #fff0f2;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.subject-type-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 25px 0 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-left: 4px solid #e94560;
+  padding-left: 10px;
+}
+.subject-type-header:first-of-type {
+  margin-top: 10px;
+}
+.subject-card .name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.subject-card .teacher {
+  font-size: 13px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.subject-card .teacher::before {
+  content: "👨‍🏫";
+  font-size: 12px;
+}
 .story-card {
   background: white; border-radius: 12px; padding: 24px;
   margin-bottom: 14px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);
@@ -94,67 +169,85 @@ permalink: /semester1/
   <h2>📋 Subjects & Teachers</h2>
   <div class="subjects-grid">
     <div class="subject-card">
-      <div class="icon">💻</div>
+      <div class="subject-header">
+        <div class="icon">💻</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">Programming Fundamentals</div>
       <div class="teacher">Dr. Bilal Ahmad</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">📐</div>
+      <div class="subject-header">
+        <div class="icon">📐</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">Calculus</div>
       <div class="teacher">Mam Arshi</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🧮</div>
+      <div class="subject-header">
+        <div class="icon">🧮</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">Discrete Mathematics</div>
       <div class="teacher">Sir Abdullah Bilal</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🖥️</div>
+      <div class="subject-header">
+        <div class="icon">🖥️</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">AICT</div>
       <div class="teacher">Mam Asia</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">⚛️</div>
+      <div class="subject-header">
+        <div class="icon">⚛️</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">Applied Physics</div>
       <div class="teacher">Mam Nosheen</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">📖</div>
+      <div class="subject-header">
+        <div class="icon">📖</div>
+        <span class="type-badge theory">Theory</span>
+      </div>
       <div class="name">Fahm-e-Quran</div>
       <div class="teacher">Dr. Aslam</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🔬</div>
+      <div class="subject-header">
+        <div class="icon">🔬</div>
+        <span class="type-badge lab">Lab</span>
+      </div>
       <div class="name">Lab - PF</div>
       <div class="teacher">Dr. Bilal</div>
-      <div class="type">Lab</div>
     </div>
     <div class="subject-card">
-      <div class="icon">💾</div>
+      <div class="subject-header">
+        <div class="icon">💾</div>
+        <span class="type-badge lab">Lab</span>
+      </div>
       <div class="name">Lab - AICT</div>
       <div class="teacher">Mam Asia</div>
-      <div class="type">Lab</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🧪</div>
+      <div class="subject-header">
+        <div class="icon">🧪</div>
+        <span class="type-badge lab">Lab</span>
+      </div>
       <div class="name">Lab - Physics</div>
       <div class="teacher">Mam Sherish</div>
-      <div class="type">Lab</div>
     </div>
   </div>
 </div>
 
 <div class="section-card">
-  <h2>📝 Reflective Journals & Lab Reports</h2>
-  <p style="color:#888; font-size:13px; margin-bottom:15px;">A collection of my technical logs, lab reports, and reflective journals for this semester.</p>
+  <h2>📝 Posts</h2>
+  <p style="color:#888; font-size:13px; margin-bottom:15px;">A collection of my posts and reflections for this semester.</p>
   <div class="posts-grid">
-    {% assign semester_posts = site.posts | where: "category", "semester1" %}
+    {% assign semester_posts = site.posts | where: "category", "semester1" | sort: "date" %}
     {% if semester_posts.size > 0 %}
       {% for post in semester_posts %}
         <a href="{{ post.url | relative_url }}" class="post-card">
@@ -168,7 +261,7 @@ permalink: /semester1/
         </a>
       {% endfor %}
     {% else %}
-      <p style="color:#777; font-size:14px; font-style:italic;">No journals or posts added yet for this semester. They will appear here once published.</p>
+      <p style="color:#777; font-size:14px; font-style:italic;">No posts added yet for this semester. They will appear here once published.</p>
     {% endif %}
   </div>
 </div>

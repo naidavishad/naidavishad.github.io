@@ -27,16 +27,91 @@ permalink: /semester2/
   border-bottom: 2px solid #f4f6f9; padding-bottom: 10px;
 }
 .subjects-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
 }
 .subject-card {
-  background: #f9f9f9; border-radius: 10px; padding: 18px 12px;
-  text-align: center; border-left: 4px solid #e94560;
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
-.subject-card .icon { font-size: 28px; margin-bottom: 8px; }
-.subject-card .name { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
-.subject-card .teacher { font-size: 12px; color: #e94560; margin-bottom: 2px; }
-.subject-card .type { font-size: 11px; color: #888; }
+.subject-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #e94560;
+  transition: width 0.2s ease;
+}
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(233, 69, 96, 0.1);
+  border-color: rgba(233, 69, 96, 0.2);
+}
+.subject-card:hover::before {
+  width: 6px;
+}
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.subject-card .icon {
+  font-size: 32px;
+  background: #fff0f2;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.subject-type-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 25px 0 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-left: 4px solid #e94560;
+  padding-left: 10px;
+}
+.subject-type-header:first-of-type {
+  margin-top: 10px;
+}
+.subject-card .name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.subject-card .teacher {
+  font-size: 13px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.subject-card .teacher::before {
+  content: "👨‍🏫";
+  font-size: 12px;
+}
 .story-card {
   background: white; border-radius: 12px; padding: 24px;
   margin-bottom: 14px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);
@@ -87,74 +162,88 @@ permalink: /semester2/
 
 <div class="section-card">
   <h2>📖 About This Semester</h2>
-  <p style="color:#555; font-size:14px; line-height:1.9;">Semester 2 brought a completely new set of challenges — databases, digital logic, OOP, and online learning. It was also the semester where hostel life truly tested my independence and resilience. The introduction of MySQL and Database Systems opened my eyes to how data powers real-world systems.</p>
+  <p style="color:#555; font-size:14px; line-height:1.9;">Semester 2 brought a completely new set of challenges — digital logic, OOP, and online learning. It was also the semester where hostel life truly tested my independence and resilience. The introduction of MySQL and Database Systems opened my eyes to how data powers real-world systems.</p>
 </div>
 
 <div class="section-card">
   <h2>📋 Subjects & Teachers</h2>
+  <div class="subject-type-header">📘 Theory Courses</div>
   <div class="subjects-grid">
     <div class="subject-card">
-      <div class="icon">🗄️</div>
+      <div class="subject-header">
+        <div class="icon">🗄️</div>
+      </div>
       <div class="name">Database</div>
       <div class="teacher">Dr. Bilal</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">⚡</div>
+      <div class="subject-header">
+        <div class="icon">⚡</div>
+      </div>
       <div class="name">Digital Logic Design</div>
       <div class="teacher">Sir Abdullah Bilal</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">📐</div>
+      <div class="subject-header">
+        <div class="icon">📐</div>
+      </div>
       <div class="name">Calculus</div>
       <div class="teacher">Mam Arshi</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🗣️</div>
+      <div class="subject-header">
+        <div class="icon">🗣️</div>
+      </div>
       <div class="name">Communication Skills</div>
       <div class="teacher">Mam Saira</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">📊</div>
+      <div class="subject-header">
+        <div class="icon">📊</div>
+      </div>
       <div class="name">Applied Statistics</div>
       <div class="teacher">Sir Fazal Haq</div>
-      <div class="type">Theory</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🧩</div>
+      <div class="subject-header">
+        <div class="icon">🧩</div>
+      </div>
       <div class="name">OOP</div>
       <div class="teacher">Dr. Akram</div>
-      <div class="type">Theory</div>
     </div>
+  </div>
+
+  <div class="subject-type-header">🧪 Practical Labs</div>
+  <div class="subjects-grid">
     <div class="subject-card">
-      <div class="icon">🖥️</div>
+      <div class="subject-header">
+        <div class="icon">🖥️</div>
+      </div>
       <div class="name">OOP Lab</div>
       <div class="teacher">Mam Rimsha Chaudhry</div>
-      <div class="type">Lab</div>
     </div>
     <div class="subject-card">
-      <div class="icon">💾</div>
+      <div class="subject-header">
+        <div class="icon">💾</div>
+      </div>
       <div class="name">Database Lab</div>
       <div class="teacher">Dr. Bilal</div>
-      <div class="type">Lab</div>
     </div>
     <div class="subject-card">
-      <div class="icon">🔧</div>
+      <div class="subject-header">
+        <div class="icon">🔧</div>
+      </div>
       <div class="name">DLD Lab</div>
       <div class="teacher">Sir Abdullah Bilal</div>
-      <div class="type">Lab</div>
     </div>
   </div>
 </div>
 
 <div class="section-card">
-  <h2>📝 Reflective Journals & Lab Reports</h2>
-  <p style="color:#888; font-size:13px; margin-bottom:15px;">A collection of my technical logs, lab reports, and reflective journals for this semester.</p>
+  <h2>📝 Posts</h2>
+  <p style="color:#888; font-size:13px; margin-bottom:15px;">A collection of my posts and reflections for this semester.</p>
   <div class="posts-grid">
-    {% assign semester_posts = site.posts | where: "category", "semester2" %}
+    {% assign semester_posts = site.posts | where: "category", "semester2" | sort: "date" %}
     {% if semester_posts.size > 0 %}
       {% for post in semester_posts %}
         <a href="{{ post.url | relative_url }}" class="post-card">
@@ -176,14 +265,6 @@ permalink: /semester2/
 <div class="section-card">
   <h2>📝 My Semester 2 Story</h2>
 
-  <div class="story-card">
-    <h3>🗄️ The World of Databases: A New Perspective</h3>
-    <ul>
-      <li><strong>Introduction to Databases:</strong> Moving towards structured data management with Dr. Bilal using MySQL Workbench.</li>
-      <li><strong>Analytical Thinking:</strong> Enhancing practical thinking through SQL queries and database schemas.</li>
-      <li><strong>Real-World Relevance:</strong> Recognizing how these concepts apply to actual global systems.</li>
-    </ul>
-  </div>
 
   <div class="story-card">
     <h3>🌐 Online Learning Challenges</h3>
