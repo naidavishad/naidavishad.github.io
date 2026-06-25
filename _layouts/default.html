@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body>
+    {% include menu.html %}
+    
+    <main class="main-container">
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <p class="copyright">&copy; {{ "now" | date: "%Y" }} <strong>{{ site.author }}</strong>. Built with Jekyll.</p>
+        </div>
+        <div class="footer-socials">
+          {% for item in site.external %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="social-link" title="{{ item.title }}">
+              {% if item.icon == 'github' %}
+                <i class="fab fa-github"></i>
+              {% elsif item.icon == 'envelope' %}
+                <i class="fas fa-envelope"></i>
+              {% elsif item.icon == 'rss' %}
+                <i class="fas fa-rss"></i>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<header class="site-header">
+  <div class="header-container">
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <span class="title-avatar"><i class="fas fa-code"></i></span>
+      <span class="title-text">{{ site.title }}</span>
+    </a>
+    
+    <nav class="site-nav">
+      <button class="nav-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links">
+        {% for item in site.navigation %}
+          {% if item.url %}
+            {% assign page_url = item.url %}
+          {% else %}
+            {% assign page_url = item.file | replace: ".md", "/" | prepend: "/" %}
+          {% endif %}
+          <a href="{{ page_url | relative_url }}" class="nav-link {% if page.url == page_url or (page.url == '/index.html' and page_url == '/') %}active{% endif %}">
+            {% if item.icon %}
+              <i class="fas fa-{{ item.icon }}"></i>
+            {% endif %}
+            {{ item.title }}
+          </a>
+        {% endfor %}
+      </div>
+    </nav>
+    
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+        <i class="fas fa-sun sun-icon"></i>
+        <i class="fas fa-moon moon-icon"></i>
+      </button>
+    </div>
+  </div>
+</header>

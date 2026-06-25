@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semester 1 | Naida Vishad</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- KaTeX -->
+  
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/index.css">
+
+  <!-- Theme Detection & Initialization Script -->
+  <script src="/assets/js/toggle-color.js"></script>
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4001/feed.xml" title="Naida Vishad" />
+  <!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Semester 1 | Naida Vishad</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Semester 1" />
+<meta name="author" content="Naida Vishad" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="A professional reflective portfolio documenting my journey in Computer Engineering, Database Systems, and technical resilience." />
+<meta name="twitter:description" property="og:description" content="A professional reflective portfolio documenting my journey in Computer Engineering, Database Systems, and technical resilience." />
+<link rel="canonical" href="http://localhost:4001/semester1/" />
+<meta property="og:url" content="http://localhost:4001/semester1/" />
+<meta property="og:site_name" content="Naida Vishad" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Semester 1" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Naida Vishad"},"description":"A professional reflective portfolio documenting my journey in Computer Engineering, Database Systems, and technical resilience.","headline":"Semester 1","url":"http://localhost:4001/semester1/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="header-container">
+    <a href="/" class="site-title">
+      <span class="title-avatar"><i class="fas fa-code"></i></span>
+      <span class="title-text">Naida Vishad</span>
+    </a>
+    
+    <nav class="site-nav">
+      <button class="nav-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links">
+        
+          
+          <a href="/" class="nav-link ">
+            
+              <i class="fas fa-home"></i>
+            
+            Home
+          </a>
+        
+          
+          <a href="/about/" class="nav-link ">
+            
+              <i class="fas fa-user"></i>
+            
+            About Me
+          </a>
+        
+          
+          <a href="/blog/" class="nav-link ">
+            
+              <i class="fas fa-book-open"></i>
+            
+            My Engineering Story
+          </a>
+        
+          
+          <a href="/semester1/" class="nav-link active">
+            
+              <i class="fas fa-graduation-cap"></i>
+            
+            Semester 1
+          </a>
+        
+          
+          <a href="/semester2/" class="nav-link ">
+            
+              <i class="fas fa-graduation-cap"></i>
+            
+            Semester 2
+          </a>
+        
+      </div>
+    </nav>
+    
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+        <i class="fas fa-sun sun-icon"></i>
+        <i class="fas fa-moon moon-icon"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+    
+    <main class="main-container">
+      <div class="content-wrapper">
+        <style>
+.sem-hero {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white; border-radius: 16px;
+  padding: 40px; text-align: center; margin-bottom: 30px;
+}
+.sem-hero h1 { font-size: 28px; margin-bottom: 8px; }
+.sem-hero p { color: #aaa; font-size: 14px; }
+.back-btn {
+  display: inline-block; margin-bottom: 24px;
+  background: #e94560; color: white;
+  padding: 8px 20px; border-radius: 20px;
+  text-decoration: none; font-size: 13px;
+}
+.section-card {
+  background: white; border-radius: 12px; padding: 30px;
+  margin-bottom: 24px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+.section-card h2 {
+  color: #e94560; font-size: 20px; margin-bottom: 16px;
+  border-bottom: 2px solid #f4f6f9; padding-bottom: 10px;
+}
+.subjects-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 10px;
+}
+.subject-card {
+  background: #f9f9f9; border-radius: 10px; padding: 18px 12px;
+  text-align: center; border-left: 4px solid #e94560;
+}
+.subject-card .icon { font-size: 28px; margin-bottom: 8px; }
+.subject-card .name { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
+.subject-card .teacher { font-size: 12px; color: #e94560; margin-bottom: 2px; }
+.subject-card .type { font-size: 11px; color: #888; }
+.story-card {
+  background: white; border-radius: 12px; padding: 24px;
+  margin-bottom: 14px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+  border-left: 4px solid #e94560;
+}
+.story-card h3 { color: #1a1a2e; font-size: 16px; margin-bottom: 10px; }
+.story-card li { color: #555; font-size: 14px; line-height: 1.9; }
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 15px;
+}
+.post-card {
+  display: block;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 18px;
+  text-decoration: none;
+  border-left: 4px solid #e94560;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s, background-color 0.2s;
+}
+.post-card:hover {
+  transform: translateY(-2px);
+  background: #fef6f8;
+}
+.post-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+.post-meta {
+  font-size: 11px;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+
+<p><a href="/blog/" class="back-btn">← Back to My Story</a></p>
+
+<div class="sem-hero">
+  <h1>📚 Semester 1</h1>
+  <p>My first semester at UET Lahore · BS Computer Engineering</p>
+</div>
+
+<div class="section-card">
+  <h2>📖 About This Semester</h2>
+  <p style="color:#555; font-size:14px; line-height:1.9;">My first semester was where everything began. Coming in with no prior computer science background, I had to learn fast. From adapting to the engineering culture of UET Lahore to writing my first lines of code in Programming Fundamentals, every week brought new challenges and new lessons. This semester built the foundation of who I am as an engineering student.</p>
+</div>
+
+<div class="section-card">
+  <h2>📋 Subjects &amp; Teachers</h2>
+  <div class="subjects-grid">
+    <div class="subject-card">
+      <div class="icon">💻</div>
+      <div class="name">Programming Fundamentals</div>
+      <div class="teacher">Dr. Bilal Ahmad</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">📐</div>
+      <div class="name">Calculus</div>
+      <div class="teacher">Mam Arshi</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">🧮</div>
+      <div class="name">Discrete Mathematics</div>
+      <div class="teacher">Sir Abdullah Bilal</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">🖥️</div>
+      <div class="name">AICT</div>
+      <div class="teacher">Mam Asia</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">⚛️</div>
+      <div class="name">Applied Physics</div>
+      <div class="teacher">Mam Nosheen</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">📖</div>
+      <div class="name">Fahm-e-Quran</div>
+      <div class="teacher">Dr. Aslam</div>
+      <div class="type">Theory</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">🔬</div>
+      <div class="name">Lab - PF</div>
+      <div class="teacher">Dr. Bilal</div>
+      <div class="type">Lab</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">💾</div>
+      <div class="name">Lab - AICT</div>
+      <div class="teacher">Mam Asia</div>
+      <div class="type">Lab</div>
+    </div>
+    <div class="subject-card">
+      <div class="icon">🧪</div>
+      <div class="name">Lab - Physics</div>
+      <div class="teacher">Mam Sherish</div>
+      <div class="type">Lab</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-card">
+  <h2>📝 Reflective Journals &amp; Lab Reports</h2>
+  <p style="color:#888; font-size:13px; margin-bottom:15px;">A collection of my technical logs, lab reports, and reflective journals for this semester.</p>
+  <div class="posts-grid">
+    
+    
+      <p style="color:#777; font-size:14px; font-style:italic;">No journals or posts added yet for this semester. They will appear here once published.</p>
+    
+  </div>
+</div>
+
+<div class="section-card">
+  <h2>📝 My Semester 1 Story</h2>
+
+  <div class="story-card">
+    <h3>🏛️ The Beginning: Pressure &amp; Expectations</h3>
+    <ul>
+      <li><strong>Post-FSC Stress:</strong> Navigating intense societal and parental pressure during university admissions.</li>
+      <li><strong>Achievement of UET Lahore:</strong> The pride of joining one of Pakistan's top engineering institutions.</li>
+      <li><strong>Reality Check:</strong> Realizing that admission was only the start of a much bigger challenge.</li>
+    </ul>
+  </div>
+
+  <div class="story-card">
+    <h3>💻 Programming Fundamentals: The Real Start</h3>
+    <ul>
+      <li><strong>Foundation of Learning:</strong> Introduction to coding and development of logical thinking with Dr. Bilal Ahmad.</li>
+      <li><strong>Expression Gap:</strong> Understanding concepts in the lab but struggling in theoretical exams.</li>
+      <li><strong>Performance Imbalance:</strong> Identifying the gap between practical skills and written results.</li>
+    </ul>
+  </div>
+
+  <div class="story-card">
+    <h3>⏳ Managing Academic Pressure</h3>
+    <ul>
+      <li><strong>Heavy Workload:</strong> Simultaneously handling assignments, quizzes, and projects.</li>
+      <li><strong>Strategic Planning:</strong> Developing time management skills to stay ahead.</li>
+      <li><strong>Mental Strength:</strong> Building resilience to stay focused during challenging situations.</li>
+    </ul>
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <p class="copyright">&copy; 2026 <strong>Naida Vishad</strong>. Built with Jekyll.</p>
+        </div>
+        <div class="footer-socials">
+          
+            <a href="https://github.com/naidavishad07" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+              
+                <i class="fab fa-github"></i>
+              
+            </a>
+          
+            <a href="mailto:naidavishad81@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Mail">
+              
+                <i class="fas fa-envelope"></i>
+              
+            </a>
+          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<div class="post-meta">
+  {% if page.date %}
+    <span class="meta-item date">
+      <i class="far fa-calendar-alt"></i> {{ page.date | date: site.date_format | default: "%B %d, %Y" }}
+    </span>
+  {% endif %}
+  
+  {% if page.author or site.author %}
+    <span class="meta-item author">
+      <i class="far fa-user"></i> {{ page.author | default: site.author }}
+    </span>
+  {% endif %}
+  
+  <span class="meta-item read-time">
+    <i class="far fa-clock"></i> 
+    {% assign words = content | number_of_words %}
+    {% if words < 360 %}
+      1 min read
+    {% else %}
+      {{ words | divided_by: 180 }} min read
+    {% endif %}
+  </span>
+</div>

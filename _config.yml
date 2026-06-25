@@ -1,38 +1,28 @@
-# --- Site Settings ---
-title: Naida Vishad
-tagline: Computer Engineering Student | UET Lahore
+title: "Naida Vishad"
+author: "Naida Vishad"
 email: naidavishad81@gmail.com
-description: >- # This is for SEO/Google search results
-  A professional reflective portfolio documenting my journey in 
-  Computer Engineering, Database Systems, and technical resilience.
+description: "A professional reflective portfolio documenting my journey in Computer Engineering, Database Systems, and technical resilience."
+url: "https://naidavishad.github.io"
+baseurl: ""
+github_username: naidavishad07
+permalink: /:title/
+lang: "en"
+show_excerpts: true
+show_frame: true
+show_sidebar: false
 
-# --- URL Settings ---
-# Leave baseurl empty ("") if your repo is naidavishad07.github.io
-baseurl: "" 
-url: "https://github.io"
+navigation:
+  - {title: "Home", url: "/", icon: "home"}
+  - {title: "About Me", url: "/about/", icon: "user"}
+  - {title: "My Engineering Story", url: "/blog/", icon: "book-open"}
+  - {title: "Semester 1", url: "/semester1/", icon: "graduation-cap"}
+  - {title: "Semester 2", url: "/semester2/", icon: "graduation-cap"}
 
-# --- Author/Social Links ---
-author:
-  name: Naida Vishad
-  github:  naidavishad07
+external:
+  - {title: GitHub, icon: github, url: "https://github.com/naidavishad07"}
+  - {title: Mail, icon: envelope, url: "mailto:naidavishad81@gmail.com"}
 
 
-# --- Build Settings ---
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# --- Minima Theme Configuration ---
-minima:
-  skin: classic # Options: classic, dark, solarized
-   
-# --- Exclusions ---
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
