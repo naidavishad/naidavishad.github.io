@@ -2,13 +2,17 @@
 layout: default
 title: Home
 ---
-
 <style>
 * { box-sizing: border-box; }
 .hero-card {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
   color: white; border-radius: 16px;
   padding: 50px 40px; margin-bottom: 30px; text-align: center;
+}
+.profile-pic {
+  width: 120px; height: 120px; border-radius: 50%;
+  object-fit: cover; border: 4px solid #e94560;
+  margin-bottom: 16px; display: block; margin-left: auto; margin-right: auto;
 }
 .hero-card h1 { font-size: 30px; font-weight: 700; margin-bottom: 8px; }
 .hero-card .reg { color: #aaa; font-size: 14px; margin-bottom: 6px; }
@@ -46,6 +50,7 @@ title: Home
 </style>
 
 <div class="hero-card">
+  <img src="/assets/images/profile.jpg" alt="Nahida Wishad Ali Khan" class="profile-pic">
   <h1>Nahida Wishad Ali Khan</h1>
   <div class="reg">Registration No: 2025-BSCPE-140</div>
   <div class="badge">BS Computer Engineering · Semester 2 · UET Lahore</div>
