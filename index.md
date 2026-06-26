@@ -46,7 +46,7 @@ title: Home
 </style>
 
 <div class="hero-card">
-  <h1>NAIDA VISHAD</h1>
+  <h1>Nahida Wishad Ali Khan</h1>
   <div class="reg">Registration No: 2025-BSCPE-140</div>
   <div class="badge">BS Computer Engineering · Semester 2 · UET Lahore</div>
 </div>
